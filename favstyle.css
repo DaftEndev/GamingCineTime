@@ -32,7 +32,7 @@ header
 
 .gamingcine
 {
-	width: 700px;
+	width: 500px;
 	margin-top: 10px;
 	filter: drop-shadow(10px 10px 10px black);
 
@@ -44,7 +44,7 @@ section
 	flex-wrap: wrap;
 	justify-content: center;
 	max-width: 1400px;
-	margin: 270px auto auto auto;
+	margin: 200px auto auto auto;
 	padding-bottom: 40px;
 	z-index: 2;
 }
@@ -54,11 +54,24 @@ section
 	max-width: 1000px;
 }
 
+section div
+{
+	width: 150px;
+	height: 177px;
+	border-radius: 30px;
+	box-shadow: 3px 3px 10px black;
+	margin: 10px;
+	background-color: #afcee9;
+	display: flex;
+	flex-direction: column;
+	transition: 0.3s;
+}
+
 section a
 {
 	display: block;
-	width: 185px;
-	height: 185px;
+	width: 140px;
+	height: 140px;
 	border-radius: 25px;
 	background-size: cover;
 	transition: background-image 0.3s;
@@ -68,8 +81,8 @@ section a
 
 section a:hover
 {
-	width: 196px;
-	height: 196px;
+	width: 145px;
+	height: 145px;
 	margin-top: 0px;
 	border-radius: 28px;
 	border: 2px #ffe000 solid;
@@ -77,34 +90,34 @@ section a:hover
 
 .gros 
 {
-width: 300px;	
-height: 335px;
+width: 200px;
+height: 227px;
 font-weight: bold;
 }
 
 .gros a
 {
-	width: 280px;
-	height: 280px;
+	width: 185px;
+	height: 185px;
 	margin-top: 9px;
 }
 
 .gros a:hover
 {
-	width: 295px;
-	height: 295px;
+	width: 196px;
+	height: 196px;
 }
 
 .divretour
 {
 	background-color: rgba(0, 0, 0, 0);
-	box-shadow: none;olid;
+	box-shadow: none;
 }
 
 #retour 
 {
-	width: 140px;
-	height: 140px;
+	width: 110px;
+	height: 110px;
 	margin-top: 30px;
 	transition: 0.3s;
 	border-radius: 0;
@@ -125,19 +138,6 @@ font-weight: bold;
 	margin: auto;
 }
 
-section div
-{
-	width: 200px;
-	height: 240px;
-	border-radius: 30px;
-	box-shadow: 3px 3px 10px black;
-	margin: 10px;
-	background-color: #afcee9;
-	display: flex;
-	flex-direction: column;
-	transition: 0.3s;
-}
-
 .div:hover
 {
 	transform: scale(1.06);
@@ -150,8 +150,8 @@ section div
 
 section div p
 {
-	font-size: 1.3em;
-	margin: 0 0 10px 0;
+	font-size: 1.1em;
+	margin: 0 0 5px 0;
 	text-align: center;
 }
 
@@ -191,6 +191,15 @@ section div p
 .cine 
 {background-image: url(fichiers/cin1.png);}
 
+.video
+{background-image: url(fichiers/vid1.png)}
+
+.shopping
+{background-image: url(fichiers/sho1.png)}
+
+.music
+{background-image: url(fichiers/mus1.png)}
+
 .netflix
 {background-image: url(fichiers/net1.png);}
 
@@ -217,6 +226,39 @@ section div p
 
 .trq
 {background-image: url(fichiers/trq1.png);}
+
+.youtube
+{background-image: url(fichiers/you1.png)}
+
+.twitch
+{background-image: url(fichiers/twi1.png)}
+
+.koreus
+{background-image: url(fichiers/kor1.png)}
+
+.amazon
+{background-image: url(fichiers/ama1.png)}
+
+.leboncoin
+{background-image: url(fichiers/leb1.png)}
+
+.cdiscount
+{background-image: url(fichiers/cdi1.png)}
+
+.fnac
+{background-image: url(fichiers/fna1.png)}
+
+.youtubemusic
+{background-image: url(fichiers/youm1.png)}
+
+.spotify
+{background-image: url(fichiers/spo1.png)}
+
+.deezer
+{background-image: url(fichiers/dee1.png)}
+
+.soundcloud
+{background-image: url(fichiers/sou1.png)}
 
 
 
@@ -277,6 +319,15 @@ section div p
 	.cine:hover
 	{background-image: url(fichiers/cin2.png);}
 
+	.video:hover
+	{background-image: url(fichiers/vid2.png)}
+
+	.shopping:hover
+	{background-image: url(fichiers/sho2.png)}
+
+	.music:hover
+	{background-image: url(fichiers/mus2.png)}	
+
 	.crunchyroll:hover
 	{background-image: url(fichiers/cru2.png);}
 
@@ -285,6 +336,39 @@ section div p
 
 	.trq:hover
 	{background-image: url(fichiers/trq2.png);}
+
+	.youtube:hover
+	{background-image: url(fichiers/you2.png)}
+
+	.twitch:hover
+	{background-image: url(fichiers/twi2.png)}
+
+	.koreus:hover
+	{background-image: url(fichiers/kor2.png)}
+
+	.amazon:hover
+	{background-image: url(fichiers/ama2.png)}
+
+	.leboncoin:hover
+	{background-image: url(fichiers/leb2.png)}
+
+	.cdiscount:hover
+	{background-image: url(fichiers/cdi2.png)}
+
+	.fnac:hover
+	{background-image: url(fichiers/fna2.png)}
+
+	.youtubemusic:hover
+	{background-image: url(fichiers/youm2.png)}
+
+	.spotify:hover
+	{background-image: url(fichiers/spo2.png)}
+
+	.deezer:hover
+	{background-image: url(fichiers/dee2.png)}
+
+	.soundcloud:hover
+	{background-image: url(fichiers/sou2.png)}
 
 }
 
