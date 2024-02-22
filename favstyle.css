@@ -227,6 +227,9 @@ section div p
 .trq
 {background-image: url(fichiers/trq1.png);}
 
+.jklm
+{background-image: url(fichiers/jkl1.png);}
+
 .youtube
 {background-image: url(fichiers/you1.png)}
 
@@ -336,6 +339,9 @@ section div p
 
 	.trq:hover
 	{background-image: url(fichiers/trq2.png);}
+
+	.jklm:hover
+	{background-image: url(fichiers/jkl2.png);}
 
 	.youtube:hover
 	{background-image: url(fichiers/you2.png)}
@@ -475,4 +481,7 @@ section div p
 
 	.trq
 	{background-image: url(fichiers/trq2.png);}
+
+	.jklm
+	{background-image: url(fichiers/jkl2.png);}
 }
