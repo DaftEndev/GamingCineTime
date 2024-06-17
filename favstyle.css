@@ -1,0 +1,487 @@
+@font-face
+{
+	font-family: 'verdana';
+	src: url('fichiers/verdana.ttf')
+}
+
+html
+{
+	min-height: 100%;
+}
+
+body
+{
+	font-family: verdana, sans-serif;
+	background: linear-gradient(#000000, #000000, #000000, #111111, #111111);
+	margin: 0;
+	padding: 0;
+	color: #d6d6d6;
+}
+
+header
+{
+	text-align: center;
+	background: linear-gradient(#000000, #000000, #000000, #000000, #140013, #260024, #4a0000, #916f00, #00cbde);
+	box-shadow: 0 5px 10px black;
+	margin-bottom: 20px;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	z-index: 1;
+}
+
+.gamingcine
+{
+	width: 500px;
+	margin-top: 10px;
+	filter: drop-shadow(10px 10px 10px black);
+
+}
+
+section
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	max-width: 1400px;
+	margin: 200px auto auto auto;
+	padding-bottom: 40px;
+	z-index: 2;
+}
+
+.cinésection
+{
+	max-width: 1000px;
+}
+
+section div
+{
+	width: 150px;
+	height: 177px;
+	border-radius: 30px;
+	box-shadow: 3px 3px 10px black;
+	margin: 10px;
+	background-color: #343434;
+	display: flex;
+	flex-direction: column;
+	transition: 0.3s;
+}
+
+section a
+{
+	display: block;
+	width: 140px;
+	height: 140px;
+	border-radius: 25px;
+	background-size: cover;
+	transition: background-image 0.3s;
+	margin: auto;
+	margin-top: 7px;
+}
+
+section a:hover
+{
+	width: 145px;
+	height: 145px;
+	margin-top: 0px;
+	border-radius: 28px;
+	border: 2px #343434 solid;
+}
+
+.gros 
+{
+width: 200px;
+height: 227px;
+font-weight: bold;
+}
+
+.gros a
+{
+	width: 185px;
+	height: 185px;
+	margin-top: 9px;
+}
+
+.gros a:hover
+{
+	width: 196px;
+	height: 196px;
+}
+
+.divretour
+{
+	background-color: rgba(0, 0, 0, 0);
+	box-shadow: none;
+}
+
+#retour 
+{
+	width: 110px;
+	height: 110px;
+	margin-top: 30px;
+	transition: 0.3s;
+	border-radius: 0;
+}
+
+ #retour:hover
+ {
+ 	border: none;
+ 	border-right: 4px #737373 solid;
+ 	transform: translateX(-10px);
+ 	margin-top: 30px;
+ }
+
+#imgretour
+{
+	display: block;
+	width: 100%;
+	margin: auto;
+}
+
+.div:hover
+{
+	transform: scale(1.06);
+}
+
+.gros:hover
+{
+	transform: scale(1.04);
+}
+
+section div p
+{
+	font-size: 1.1em;
+	margin: 0 0 5px 0;
+	text-align: center;
+}
+
+.territorial
+{background-image: url(fichiers/terr1.png);}
+
+.codenames
+{background-image: url(fichiers/cn1.png);}
+
+.hanabi
+{background-image: url(fichiers/han1.png);}
+
+.skribbl
+{background-image: url(fichiers/skr1.png);}
+
+.gartic
+{background-image: url(fichiers/gar1.png);}
+
+.kculture
+{background-image: url(fichiers/kcu1.png);}
+
+.petitbac
+{background-image: url(fichiers/pb1.png);}
+
+.blindz
+{background-image: url(fichiers/bli1.png);}
+
+.geo
+{background-image: url(fichiers/geo1.png);}
+
+.seterra
+{background-image: url(fichiers/set1.png);}
+
+.gaming 
+{background-image: url(fichiers/gam1.png);}
+
+.cine 
+{background-image: url(fichiers/cin1.png);}
+
+.video
+{background-image: url(fichiers/vid1.png)}
+
+.shopping
+{background-image: url(fichiers/sho1.png)}
+
+.music
+{background-image: url(fichiers/mus1.png)}
+
+.netflix
+{background-image: url(fichiers/net1.png);}
+
+.disney
+{background-image: url(fichiers/dis1.png);}
+
+.mycanal
+{background-image: url(fichiers/can1.png);}
+
+.prime
+{background-image: url(fichiers/pri1.png);}
+
+.ocs
+{background-image: url(fichiers/ocs1.png);}
+
+.gue
+{background-image: url(fichiers/gue1.png);}
+
+.crunchyroll
+{background-image: url(fichiers/cru1.png);}
+
+.chess
+{background-image: url(fichiers/che1.png);}
+
+.trq
+{background-image: url(fichiers/trq1.png);}
+
+.jklm
+{background-image: url(fichiers/jkl1.png);}
+
+.youtube
+{background-image: url(fichiers/you1.png)}
+
+.twitch
+{background-image: url(fichiers/twi1.png)}
+
+.koreus
+{background-image: url(fichiers/kor1.png)}
+
+.amazon
+{background-image: url(fichiers/ama1.png)}
+
+.leboncoin
+{background-image: url(fichiers/leb1.png)}
+
+.cdiscount
+{background-image: url(fichiers/cdi1.png)}
+
+.fnac
+{background-image: url(fichiers/fna1.png)}
+
+.youtubemusic
+{background-image: url(fichiers/youm1.png)}
+
+.spotify
+{background-image: url(fichiers/spo1.png)}
+
+.deezer
+{background-image: url(fichiers/dee1.png)}
+
+.soundcloud
+{background-image: url(fichiers/sou1.png)}
+
+
+
+
+@media screen and (min-width: 451px)
+{
+	.territorial:hover
+	{background-image: url(fichiers/terr2.png);}
+
+	.codenames:hover
+	{background-image: url(fichiers/cn2.png);}
+	
+	.hanabi:hover
+	{background-image: url(fichiers/han2.png);}
+	
+	.skribbl:hover
+	{background-image: url(fichiers/skr2.png);}
+	
+	.gartic:hover
+	{background-image: url(fichiers/gar2.png);}
+	
+	.kculture:hover
+	{background-image: url(fichiers/kcu2.png);}
+	
+	.petitbac:hover
+	{background-image: url(fichiers/pb2.png);}
+	
+	.blindz:hover
+	{background-image: url(fichiers/bli2.png);}
+	
+	.geo:hover
+	{background-image: url(fichiers/geo2.png);}
+	
+	.seterra:hover
+	{background-image: url(fichiers/set2.png);}
+
+	.gue:hover
+	{background-image: url(fichiers/gue2.png);}
+
+	.netflix:hover
+	{background-image: url(fichiers/net2.png);}
+
+	.disney:hover
+	{background-image: url(fichiers/dis2.png);}
+
+	.mycanal:hover
+	{background-image: url(fichiers/can2.png);}
+
+	.prime:hover
+	{background-image: url(fichiers/pri2.png);}
+
+	.ocs:hover
+	{background-image: url(fichiers/ocs2.png);}
+
+	.gaming:hover
+	{background-image: url(fichiers/gam2.png);}
+
+	.cine:hover
+	{background-image: url(fichiers/cin2.png);}
+
+	.video:hover
+	{background-image: url(fichiers/vid2.png)}
+
+	.shopping:hover
+	{background-image: url(fichiers/sho2.png)}
+
+	.music:hover
+	{background-image: url(fichiers/mus2.png)}	
+
+	.crunchyroll:hover
+	{background-image: url(fichiers/cru2.png);}
+
+	.chess:hover
+	{background-image: url(fichiers/che2.png);}
+
+	.trq:hover
+	{background-image: url(fichiers/trq2.png);}
+
+	.jklm:hover
+	{background-image: url(fichiers/jkl2.png);}
+
+	.youtube:hover
+	{background-image: url(fichiers/you2.png)}
+
+	.twitch:hover
+	{background-image: url(fichiers/twi2.png)}
+
+	.koreus:hover
+	{background-image: url(fichiers/kor2.png)}
+
+	.amazon:hover
+	{background-image: url(fichiers/ama2.png)}
+
+	.leboncoin:hover
+	{background-image: url(fichiers/leb2.png)}
+
+	.cdiscount:hover
+	{background-image: url(fichiers/cdi2.png)}
+
+	.fnac:hover
+	{background-image: url(fichiers/fna2.png)}
+
+	.youtubemusic:hover
+	{background-image: url(fichiers/youm2.png)}
+
+	.spotify:hover
+	{background-image: url(fichiers/spo2.png)}
+
+	.deezer:hover
+	{background-image: url(fichiers/dee2.png)}
+
+	.soundcloud:hover
+	{background-image: url(fichiers/sou2.png)}
+
+}
+
+
+@media all and (min-width: 451px) and (max-width: 700px)
+{
+	.gamingcine
+	{
+		width: 90%;
+	}
+
+	header
+	{
+		height: 220px;
+	}
+
+	section
+	{
+		margin-top: 230px;
+	}
+
+}
+
+@media screen and (max-width: 450px)
+{
+	section a
+	{
+		width: 148px;
+		height: 148px;
+	}
+
+	section a:hover
+	{
+		width: 148px;
+		height: 148px;
+		margin-top: 7px;
+		border-radius: 25px;
+		border: none;
+	}
+
+	section div
+	{
+		width: 160px;
+		height: 192px;
+		margin: 5px;
+	}
+
+
+	section div p
+	{
+		font-size: 1.1em;
+		margin: 0 0 7px 0;
+	}
+
+	.gamingcine
+	{
+		width: 90%;
+		margin-bottom: 8px;
+	}
+
+	section
+	{
+		margin-top: 150px;
+	}
+
+	.territorial
+	{background-image: url(fichiers/terr1.png);}
+
+	.codenames
+	{background-image: url(fichiers/cn2.png);}
+
+	.hanabi
+	{background-image: url(fichiers/han2.png);}
+
+	.skribbl
+	{background-image: url(fichiers/skr2.png);}
+
+	.gartic
+	{background-image: url(fichiers/gar1.png);}
+
+	.kculture
+	{background-image: url(fichiers/kcu2.png);}
+
+	.petitbac
+	{background-image: url(fichiers/pb2.png);}
+
+	.blindz
+	{background-image: url(fichiers/bli2.png);}
+
+	.geo
+	{background-image: url(fichiers/geo2.png);}
+
+	.seterra
+	{background-image: url(fichiers/set1.png);}
+
+	.gue 
+	{background-image: url(fichiers/gue2.png);}
+
+	.crunchyroll
+	{background-image: url(fichiers/cru1.png);}
+
+	.chess
+	{background-image: url(fichiers/che1.png);}
+
+	.trq
+	{background-image: url(fichiers/trq2.png);}
+
+	.jklm
+	{background-image: url(fichiers/jkl2.png);}
+}
