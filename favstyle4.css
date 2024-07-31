@@ -209,11 +209,11 @@ section div p
 .mycanal
 {background-image: url(fichiers/can1.png);}
 
+.max
+{background-image: url(fichiers/max1.png);}
+
 .prime
 {background-image: url(fichiers/pri1.png);}
-
-.ocs
-{background-image: url(fichiers/ocs1.png);}
 
 .gue
 {background-image: url(fichiers/gue1.png);}
@@ -310,11 +310,11 @@ section div p
 	.mycanal:hover
 	{background-image: url(fichiers/can2.png);}
 
+	.max:hover
+	{background-image: url(fichiers/max2.png);}
+
 	.prime:hover
 	{background-image: url(fichiers/pri2.png);}
-
-	.ocs:hover
-	{background-image: url(fichiers/ocs2.png);}
 
 	.gaming:hover
 	{background-image: url(fichiers/gam2.png);}
